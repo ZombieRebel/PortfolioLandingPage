@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing page</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+<nav class="navbar navbar-default navbar-top navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Web Development</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right" id="navuppercase">
+        <li class="active"><a href="#" onclick="smoothScroll(document.getElementById('section1'))">About</a></li>
+        <li><a href="#" onclick="smoothScroll(document.getElementById('section2'))">Portfolio</a></li>
+        <li><a id="navcontacts" href="#" onclick="smoothScroll(document.getElementById('section3'))">Contacts</a></li>
+
+      </ul>
+      </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<div class="container ">
+
+  <div class="row" id="section1">
+    <div class="col-md-9 text-right">
+      <h4 id="about">Junior Front-End Developer, with some practical experience <br> in Javascript, Node.js, Twitter Bootstrap and TuxGuitar; <br>devoted to functional programming and information architecture.</h4>
+
+      <div id="divider1">
+        <span>
+        <i class="fa fa-code" aria-hidden="true"></i>
+      </span>
+      </div>
+
+      <h3>Web Developer - Front-End - Back-End
+     </h3>
+
+    </div>
+
+    <div class="col-md-3">
+      <img id="avatar" class="img-responsive" src="https://www.petfinder.com/wp-content/uploads/2012/11/99233806-bringing-home-new-cat-632x475.jpg" </img>
+    </div>
+
+  </div>
+
+  <div class="row" id="section2">
+
+    <div class="col-md-12">
+      <h2 class="text-center" id="portfolio">PORTFOLIO</h2>
+
+      <div class="divider2">
+        <span>
+          <i class="fa fa-code" aria-hidden="true"></i>
+          </span>
+      </div>
+
+      <div class=col-md-4>
+        <img class="img-thumbnail" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/UU7RH2LO7P.jpg">
+      </div>
+      <div class=col-md-4>
+        <img class="img-thumbnail" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/N565X7L1U9.jpg">
+      </div>
+      <div class=col-md-4>
+        <img class="img-thumbnail" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/4SD55EYOLG.jpg">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row" id="section3">
+    <div class="col-md-12">
+      <h2 class="text-center" id="contacts">Contact me</h2>
+
+      <div id="divider3">
+        <span>
+          <i class="fa fa-code" aria-hidden="true"></i>
+          </span>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <form class="form-section">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Phone:</label>
+              <input type="password" class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+              <label for="comment">Message:</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button class="btn btn-success">Submit</button>
+          </form>
+
+        </div>
+
+        <div class="col-md-6">
+          <p class="contacts-text">I like web dev, and I'm sick of customer support, sorry guys, I love you, just need to change something in my life to get better. Well if you like the sites or want to jam some death/thrash-metal or stoner with me, just feel free to drop me a line anytime. I'm located in Zp or Lviv basically</p>
+          <p></p>
+          <p class="contacts-text">I promise to reply A.S.A.P.</p>
+          <br><br><br><br>
+          <p class="contacts-text">Note: No spam/soliciting pour moi, merci :)</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!--end of section 3 -->
+
+
+</div>
+<nav class="navbar navbar-default navbar-bottom">
+  <div class="container">
+    <div class=" row ">
+      <div class="col-md-6">
+        <h2 id="about-this-page" class="about-left-marg">About this page</h2>
+        <h4 class="text-center about-center">Made with <i class="fa fa-free-code-camp" aria-hidden="true"></i> and <i class="fa fa-coffee" aria-hidden="true"></i></h4>
+        <h4 class="text-center about-center">by Dr.Zomboz.</h4>
+      </div>
+
+      <div class="col-md-6 ">
+        <h2 class="text-right" id="about-the-web">Around the web</h2>
+        <ul id="icons" class="text-right about-web-center">
+          <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square text-right" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+</nav>
+
+<nav class="navbar navbar-default text-center" id="copyright">
+  <div class="container">
+    <div class=" row ">
+      <div class="col-md-12">
+        <p>Dr.Zomboz <i class="fa fa-copyright" aria-hidden="true"></i> 2017. All rights reserved </p>
+      </div>
+
+    </div>
+
+  </div>
